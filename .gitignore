@@ -39,6 +39,14 @@ download/
 upload/
 *.zip
 
+# Vendors and dependencies
+
+bower_components/
+node_modules/
+composer.phar
+php-cs-fixer
+.grunt/*
+
 # End of https://www.gitignore.io/api/prestashop
 
 # Created by https://www.gitignore.io/api/symfony

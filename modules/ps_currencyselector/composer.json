@@ -1,0 +1,23 @@
+{
+  "name": "prestashop/ps_currencyselector",
+  "description": "PrestaShop module ps_currencyselector",
+  "homepage": "https://github.com/PrestaShop/ps_currencyselector",
+  "license": "AFL-3.0",
+  "authors": [
+    {
+      "name": "PrestaShop SA",
+      "email": "contact@prestashop.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4"
+  },
+  "require-dev": {
+    "friendsofphp/php-cs-fixer": "^2.15.1",
+    "prestashop/php-dev-tools": "^2"
+  },
+  "config": {
+    "preferred-install": "dist"
+  },
+  "type": "prestashop-module"
+}

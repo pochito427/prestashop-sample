@@ -1,0 +1,31 @@
+{
+    "name": "prestashop/ps_themecusto",
+    "description": "PrestaShop module ps_themecusto",
+    "homepage": "https://github.com/PrestaShop/ps_themecusto",
+    "license": "AFL-3.0",
+    "authors": [
+        {
+            "name": "PrestaShop SA",
+            "email": "contact@prestashop.com"
+        }
+    ],
+    "config": {
+        "preferred-install": "dist",
+        "optimize-autoloader": true,
+        "prepend-autoloader": false
+    },
+    "require": {
+        "php": ">=5.3.2"
+    },
+    "require-dev": {
+        "prestashop/php-coding-standards": "dev-master"
+    },
+    "autoload": {
+        "classmap": [
+            "ps_themecusto.php",
+            "controllers",
+            "classes"
+        ]
+    },
+    "type": "prestashop-module"
+}

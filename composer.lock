@@ -1912,6 +1912,7 @@
                 "Guzzle",
                 "cache"
             ],
+            "abandoned": true,
             "time": "2019-09-16T13:44:55+00:00"
         },
         {
@@ -3866,19 +3867,20 @@
         },
         {
             "name": "prestashop/contactform",
-            "version": "v4.1.1",
+            "version": "v4.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PrestaShop/contactform.git",
-                "reference": "2be28a7a905db9e03f6be033b0185e7f0b3e69f1"
+                "reference": "849aae54ec564aca94877b9bee50e71bb0468edb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PrestaShop/contactform/zipball/2be28a7a905db9e03f6be033b0185e7f0b3e69f1",
-                "reference": "2be28a7a905db9e03f6be033b0185e7f0b3e69f1",
+                "url": "https://api.github.com/repos/PrestaShop/contactform/zipball/849aae54ec564aca94877b9bee50e71bb0468edb",
+                "reference": "849aae54ec564aca94877b9bee50e71bb0468edb",
                 "shasum": ""
             },
             "require": {
+                "jakeasmith/http_build_url": "^1",
                 "php": ">=5.4.0"
             },
             "type": "prestashop-module",
@@ -3894,7 +3896,7 @@
             ],
             "description": "PrestaShop module contactform",
             "homepage": "https://github.com/PrestaShop/contactform",
-            "time": "2018-06-05T12:44:40+00:00"
+            "time": "2020-09-15T09:37:15+00:00"
         },
         {
             "name": "prestashop/dashactivity",
@@ -6225,6 +6227,7 @@
                 "configuration",
                 "distribution"
             ],
+            "abandoned": true,
             "time": "2019-06-18T15:43:58+00:00"
         },
         {
@@ -9192,6 +9195,7 @@
             "keywords": [
                 "tokenizer"
             ],
+            "abandoned": true,
             "time": "2019-09-17T06:23:10+00:00"
         },
         {

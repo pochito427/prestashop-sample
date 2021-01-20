@@ -1025,6 +1025,7 @@
                 "cache",
                 "caching"
             ],
+            "abandoned": true,
             "time": "2019-11-29T11:22:01+00:00"
         },
         {
@@ -1529,6 +1530,7 @@
                 "reflection",
                 "static"
             ],
+            "abandoned": "roave/better-reflection",
             "time": "2020-01-08T19:53:19+00:00"
         },
         {
@@ -1912,6 +1914,7 @@
                 "Guzzle",
                 "cache"
             ],
+            "abandoned": true,
             "time": "2019-09-16T13:44:55+00:00"
         },
         {
@@ -4202,16 +4205,16 @@
         },
         {
             "name": "prestashop/productcomments",
-            "version": "v4.0.1",
+            "version": "4.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PrestaShop/productcomments.git",
-                "reference": "767896682d7cb73569785fe22517a58437da6e1a"
+                "reference": "bf361efa8b291c5134a2cceeeb1ab84db31b05b7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PrestaShop/productcomments/zipball/767896682d7cb73569785fe22517a58437da6e1a",
-                "reference": "767896682d7cb73569785fe22517a58437da6e1a",
+                "url": "https://api.github.com/repos/PrestaShop/productcomments/zipball/bf361efa8b291c5134a2cceeeb1ab84db31b05b7",
+                "reference": "bf361efa8b291c5134a2cceeeb1ab84db31b05b7",
                 "shasum": ""
             },
             "require": {
@@ -4219,7 +4222,10 @@
                 "guzzlehttp/cache-subscriber": "^0.2.0",
                 "php": ">=5.6.0",
                 "prestashop/circuit-breaker": "^3.0.0",
-                "symfony/css-selector": "^3.4.0"
+                "symfony/css-selector": "^3.4 || ^4.4 || ^5.0"
+            },
+            "require-dev": {
+                "prestashop/php-dev-tools": "^3.4"
             },
             "type": "prestashop-module",
             "autoload": {
@@ -4233,7 +4239,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "AFL - Academic Free License (AFL 3.0)"
+                "AFL-3.0"
             ],
             "authors": [
                 {
@@ -4243,7 +4249,7 @@
             ],
             "description": "PrestaShop module productcomments",
             "homepage": "https://github.com/PrestaShop/productcomments",
-            "time": "2019-11-12T14:50:36+00:00"
+            "time": "2020-12-03T15:07:10+00:00"
         },
         {
             "name": "prestashop/ps_banner",
@@ -6225,6 +6231,7 @@
                 "configuration",
                 "distribution"
             ],
+            "abandoned": true,
             "time": "2019-06-18T15:43:58+00:00"
         },
         {
@@ -6346,6 +6353,7 @@
                 }
             ],
             "description": "A security checker for your composer.lock",
+            "abandoned": "https://github.com/fabpot/local-php-security-checker",
             "time": "2019-11-01T13:20:14+00:00"
         },
         {
@@ -9192,6 +9200,7 @@
             "keywords": [
                 "tokenizer"
             ],
+            "abandoned": true,
             "time": "2019-09-17T06:23:10+00:00"
         },
         {
